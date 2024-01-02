@@ -24,3 +24,15 @@
   width: calc(33.33% - 1rem * 1 / 2);
   max-width: 50%;
 }
+
+.custom-hero {
+  background-image: url(http://images.salsify.com/image/upload/s--35mrsC77--/7b8cc3ac2424f7186070c5e491b2b761bf5eb250.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #f3f4f5;
+  align-items: center;
+
+  position: relative;
+  min-height: 700px;
+  display: flex;
+}
