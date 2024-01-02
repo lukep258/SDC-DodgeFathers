@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-navbar:hover a {
+    /* Change text color of all links to grey */
+    color: grey;
+  }
+  
+  .custom-navbar a:hover {
+    /* Ensure the hovered link remains black */
+    color: black;
+  }
+  
+  .scale-hover:hover span {
+    transform: scale(1.1); /* Increase the size of the icon */
+    transition: transform 0.2s; /* Smooth transition for the scaling effect */
+  }
+  
