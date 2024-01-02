@@ -18,7 +18,3 @@ const Fact4 = () => {
 } 
 
 export default Fact4
-
-// <div className="sustainability__wrapper page-width color-background-1 gradient scroll-trigger animate--fade-in">
-
-// </div>
