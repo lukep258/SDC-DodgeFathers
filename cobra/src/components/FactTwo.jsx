@@ -2,12 +2,12 @@ const FactTwo = () => {
 
     return(
         <>
-        <div className="flex-1 flex-row">
+        <div className="flex flex-wrap justify-center items-center">
             <div>
                 <img src="http://images.salsify.com/image/upload/s--_4se3riN--/efyy1hkdejstekvzkh5v.png" loading='lazy' alt='Swing Your Fastest'>
                 </img>
             </div>
-            <div>
+            <div className="flex flex-col justify-center items-center w-80">
                 <h1 className ="text-2xl font-medium">Swing Your Fastest</h1>
                 <div>
                 Validated by the fastest players in the world The AEROJET Drivers features a raised skirt, 
