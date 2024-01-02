@@ -1,8 +1,8 @@
 const FactThree = () => {
 
 return (<>
-<div className='flex flex-row'>
-    <div className="flex flex-column justify-center items-center">
+<div className="flex flex-wrap justify-center items-center">
+    <div className="flex flex-col justify-center items-center w-80">
         <h1 className ="text-2xl font-medium">Higher Launch. Optimized Spin.</h1>
         <div>
         Proven PWRSHELL L-cup technology maximizes launch and distance, 
