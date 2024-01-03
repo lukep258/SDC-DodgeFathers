@@ -21,3 +21,15 @@
   #adBtn:hover {
     color: blue;
 }
+
+.zoom-icon {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.0s linear;
+}
+
+.product-image:hover .zoom-icon {
+    visibility: visible;
+    opacity: 1;
+}
+
