@@ -17,14 +17,21 @@
     transform: scale(1.1); /* Increase the size of the icon */
     transition: transform 0.2s; /* Smooth transition for the scaling effect */
   }
+
   
-  .zoom-icon {
+  
+.zoom-icon {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.0s linear;
+}
+
+.product-image {
+  cursor: url('src/assets/zoom_in_cursor.svg'), auto;
 }
 
 .product-image:hover .zoom-icon {
     visibility: visible;
     opacity: 1;
 }
+

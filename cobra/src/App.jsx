@@ -18,3 +18,13 @@ function App() {
 }
 
 export default App
+
+//   const [modalImages, setModalImages] = useState([])
+
+//   const toggleModal = (images) => {
+//     if (modalImages.length === 0) {
+//         setModalImages(images);
+//     } else {
+//         setModalImages([]);
+//     }
+// };
