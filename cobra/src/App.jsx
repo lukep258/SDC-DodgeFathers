@@ -1,20 +1,33 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Product from './components/Product'
-
+import ProductModal from './components/ProductModal'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const [productModalOpen, setProductModalOpen] = useState(false);
+  const [productModal, setProductModal] = useState([]);
 
+  const toggleModal = (images) => {
+    if (productModal.length === 0) {
+        setProductModal(images);
+    } else {
+        setProductModal([]);
+    }
+  };
 
   return (
     <>
-      <Navbar />
-      <Product />
+        {productModal.length > 0 ? (
+            <ProductModal productModal={productModal} toggleModal={toggleModal} />
+        ) : (
+            <>
+                <Navbar />
+                <Product toggleModal={toggleModal} />
+            </>
+        )}
     </>
-  )
+  );
 }
 
 export default App
