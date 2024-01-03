@@ -1,11 +1,11 @@
 const TechOverview = () => {
     return(
         <>
-        <div className='border-b'>
-            <h1 className='text-3xl ml-10'>TECH OVERVIEW</h1>
+        <div className='border-b mx-24'>
+            <h1 className='text-3xl'>TECH OVERVIEW</h1>
         </div>
-        <div className='flex flex-wrap px-10'>
-            <div className='mt-5 mb-9 w-3/6'>
+        <div className='flex flex-wrap px-24'>
+            <div className='mt-5 mb-9 w-3/6 pr-2'>
                 <h3 className='font-medium'>ADVANCED AERODYNAMIC SHAPING</h3>
                 <p>A seamless aerodynamic design features a raised skirt, a more symmetrical shape, and streamlined edges to reduce drag for faster clubhead speed.</p>
             </div>
