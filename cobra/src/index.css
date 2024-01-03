@@ -17,6 +17,16 @@
     transform: scale(1.1); /* Increase the size of the icon */
     transition: transform 0.2s; /* Smooth transition for the scaling effect */
   }
+
+.custom-carousel-item {
+  object-fit: cover;
+  object-position: center center;
+  width: calc(33.33% - 1rem * 1 / 2);
+  max-width: 50%;
+}
+
+
+
   
   #adBtn:hover {
     color: blue;

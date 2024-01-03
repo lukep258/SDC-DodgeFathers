@@ -4,6 +4,7 @@ import Product from './components/Product'
 import FactTwo from './components/FactTwo'
 import FactThree from './components/FactThree'
 
+import Carousel from './components/Carousel'
 
 import './App.css'
 
@@ -26,7 +27,8 @@ function App() {
                 <Navbar />
                 <Product />
                 <FactTwo/>
-                <FactThree/>
+                <FactThree />
+                <Carousel />
             </>
     </>
   );
