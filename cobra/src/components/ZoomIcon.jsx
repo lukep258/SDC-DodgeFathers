@@ -20,7 +20,7 @@
 export function ZoomIcon() {
     return (
         <div className="absolute top-0 left-0 size-75">
-            <div className="zoom-icon bg-slate-500 rounded-full p-1">
+            <div className="zoom-icon bg-slate-100 rounded-full">
                 <span className="material-symbols-outlined">zoom_in</span>
             </div>
         </div>

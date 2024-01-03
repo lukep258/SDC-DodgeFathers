@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Product from './components/Product'
-import ProductModal from './components/ProductModal'
 import './App.css'
 
 function App() {
@@ -18,14 +17,11 @@ function App() {
 
   return (
     <>
-        {productModal.length > 0 ? (
-            <ProductModal productModal={productModal} toggleModal={toggleModal} />
-        ) : (
+       
             <>
                 <Navbar />
-                <Product toggleModal={toggleModal} />
+                <Product />
             </>
-        )}
     </>
   );
 }
