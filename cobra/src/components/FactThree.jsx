@@ -1,6 +1,7 @@
 const FactThree = () => {
 
-return (<>
+return (
+<>
 <div className="flex flex-wrap justify-center items-center px-10 py-10">
     <div className="flex flex-col justify-start w-80 grow mr-20 ml-10">
         <h1 className ="text-3xl font-medium mb-6">Higher Launch. Optimized Spin.</h1>
