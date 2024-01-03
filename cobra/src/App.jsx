@@ -6,6 +6,7 @@ import FactThree from './components/FactThree'
 
 
 import './App.css'
+import TechOverview from './components/TechOverview'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
                 <Product />
                 <FactTwo/>
                 <FactThree/>
+                <TechOverview/>
             </>
     </>
   );
