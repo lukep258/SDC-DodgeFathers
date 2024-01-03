@@ -10,6 +10,7 @@
 
 import { useState } from 'react';
 import { ZoomIcon } from './ZoomIcon';
+import imageUrls from '../assets/image_urls.js'
 
 export default function ProductImages() {
     const [isModalOpen, setModalOpen] = useState(false);
@@ -24,19 +25,11 @@ export default function ProductImages() {
         }
     };
 
-    const imageUrls = [
-        "https://www.cobragolf.com/cdn/shop/products/uyu4c54ijctbjg14hwia_1500x.jpg?v=1702389120",
-        "https://www.cobragolf.com/cdn/shop/products/w3mekqyerel7bajscyp3_1500x.jpg?v=1702389121",
-        "https://www.cobragolf.com/cdn/shop/products/ygonxrvplpafjcuz2itm_1500x.jpg?v=1702389121",
-        "https://www.cobragolf.com/cdn/shop/products/z7at89roo75mg7sj5dke_1500x.jpg?v=1702389122",
-        "https://www.cobragolf.com/cdn/shop/products/ofch908w0aybwlf4zgof_1500x.jpg?v=1702389122"
-    ];
-
     return (
         <>
               <div className="w-3/5 border-2 border-black">
                 <div className="w-3/5 border-2 border-black align-left">
-                    <div className="product-image relative">
+                    <div className="product-image relative cursor-zoom-in">
                         <div key={0} onClick={() => toggleModal(imageUrls[0])}>
                             <img src={imageUrls[0]} className="w-full h-full object-cover"></img>
                             <ZoomIcon />
@@ -44,7 +37,7 @@ export default function ProductImages() {
                     </div>
                         <div className="grid grid-cols-2 gap-2">
                             {imageUrls.slice(1).map((url, index) => (
-                                <div className="product-image relative">
+                                <div className="product-image relative cursor-zoom-in">
                                     <div key={index + 1} onClick={() => toggleModal(url)}>
                                         <img src={url} alt={`Product Image`} className="w-full h-full object-cover"></img>
                                         <ZoomIcon />

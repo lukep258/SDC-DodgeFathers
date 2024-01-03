@@ -26,10 +26,6 @@
     transition: visibility 0s, opacity 0.0s linear;
 }
 
-.product-image {
-  cursor: url('src/assets/zoom_in_cursor.svg'), auto;
-}
-
 .product-image:hover .zoom-icon {
     visibility: visible;
     opacity: 1;
