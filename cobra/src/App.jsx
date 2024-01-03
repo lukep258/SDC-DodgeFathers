@@ -27,7 +27,8 @@ function App() {
                 <Navbar />
                 <Product />
                 <FactTwo/>
-                <FactThree/>
+                <FactThree />
+                <Carousel />
             </>
     </>
   );
