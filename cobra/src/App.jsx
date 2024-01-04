@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Product from './components/Product'
 import FactTwo from './components/FactTwo'
 import FactThree from './components/FactThree'
-
+import RelatedProducts from './components/RelatedProducts'
 import Carousel from './components/Carousel'
 
 import './App.css'
@@ -30,6 +30,7 @@ function App() {
                 <FactTwo/>
                 <FactThree />
                 <Carousel />
+                <RelatedProducts/>
             </>
     </>
   );
