@@ -28,6 +28,8 @@ function App() {
                 <Navbar />
                 <Product />
                 <FactTwo/>
+                <FactThree/>
+                <Footer />
                 <FactThree />
                 <Carousel />
             </>
