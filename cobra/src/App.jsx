@@ -7,7 +7,6 @@ import FactThree from './components/FactThree'
 import Carousel from './components/Carousel'
 
 import './App.css'
-import FactOne from './components/FactOne'
 
 function App() {
   const [count, setCount] = useState(0)
