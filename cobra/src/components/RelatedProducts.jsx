@@ -1,10 +1,10 @@
 const RelatedProducts = () => {
 return (
     <>
-    <div className='flex justify-center'>
+    <div className='flex justify-center mt-10'>
         <div>
         <div className='border-b mx-30'>
-          <h1 className='text-3xl'>Related Products</h1>  
+          <h1 className='text-3xl mb-1'>Related Products</h1>  
         </div>
         
          <ul className='flex flex-row'>
