@@ -1,8 +1,9 @@
 const RelatedProducts = () => {
 return (
     <>
-    <div>
-        <div className='border-b mx-24'>
+    <div className='bg-green-400 flex justify-center'>
+        <div>
+            <div className='border-b mx-24'>
           <h1 className='text-3xl'>Related Products</h1>  
         </div>
         
@@ -11,11 +12,11 @@ return (
                 <div>
                     <img src="//cdn.shopify.com/s/files/1/0634/7833/3657/products/jqk57ckqfgp5yldo1uts_533x.jpg?v=1702389178"></img>
                 </div>
-                <div className='bg-yellow-400 w-14 flex justify-center rounded-xl'>
-                    <span>Sale</span>
+                <div className='bg-yellow-400 w-14 flex justify-center rounded-xl relative bottom-10 left-4'>
+                    <span className='text-white'>Sale</span>
                 </div>
                 <div className='flex flex-col'>
-                    <span>AEROJET LS 50th Anniversary - Limited Edition</span>
+                    <span className='font-bold'>AEROJET LS 50th Anniversary - Limited Edition</span>
                     <span className='mb-10'>2023 Driver</span>
                 </div>
                 <div>
@@ -28,11 +29,11 @@ return (
                 <div>
                     <img src="//cdn.shopify.com/s/files/1/0634/7833/3657/products/693abb0998f9dd29c4a62dbe097de5d0d59a1dfe_533x.jpg?v=1702992233"></img>
                 </div>
-                <div className='bg-yellow-400 w-14 flex justify-center rounded-xl'>
-                <span>Sale</span>
+                <div className='bg-yellow-400 w-14 flex justify-center rounded-xl relative bottom-10 left-4'>
+                    <span className='text-white'>Sale</span>
                 </div>
                 <div className='flex flex-col'>
-                    <span>Tri-Fold</span>
+                    <span className='font-bold'>Tri-Fold</span>
                     <span className='mb-10'>Golf Towel</span>
                 </div>
                 <div>
@@ -45,11 +46,11 @@ return (
                 <div>
                     <img src="//cdn.shopify.com/s/files/1/0634/7833/3657/files/up3jekd1igeekd7nedd4_533x.jpg?v=1702389275"></img>
                 </div>
-                <div className='bg-yellow-400 w-14 flex justify-center rounded-xl'>
-                    <span>Sale</span>
+                <div className='bg-yellow-400 w-14 flex justify-center rounded-xl relative bottom-10 left-4'>
+                    <span className='text-white'>Sale</span>
                 </div>
                 <div className='flex flex-col'>
-                    <span>AEROJET Volition - Limited Edition</span>
+                    <span className='font-bold'>AEROJET Volition - Limited Edition</span>
                     <span className='mb-10'>2023 Driver</span>
                 </div>
                 <div>
@@ -58,6 +59,8 @@ return (
                 </div>
             </li>
          </ul>
+        </div>
+        
     </div>
     
     
