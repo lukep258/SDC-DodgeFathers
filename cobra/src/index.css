@@ -26,19 +26,43 @@
 }
 
 .custom-hero {
-  background-image: url(http://images.salsify.com/image/upload/s--35mrsC77--/7b8cc3ac2424f7186070c5e491b2b761bf5eb250.jpg);
-  background-size: cover;
-  background-position: center;
-  background-color: #f3f4f5;
-  align-items: center;
-
   position: relative;
   min-height: 700px;
   display: flex;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-color: #f3f4f5;  
 }
 
+.hero-content-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
 
+@media (max-width: 990px) {
+  .custom-hero {
+    min-height: 625px;
+    align-items: flex-end;
+  }
 
+  .hero-content-wrapper, .hero-content {
+    width: 100%;
+  }
+
+  .hero-content-wrapper {
+    position: absolute;
+    bottom: -100px;
+    background-color: white;
+  }
+
+  .hero-content {
+    width: 100%;
+    padding: 0px 25px;
+  }
+}
   
   #adBtn:hover {
     color: blue;
