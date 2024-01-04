@@ -5,7 +5,7 @@ const Specifications = () => {
                 <a><h1 className="text-3xl cursor-pointer font-TitilliumWeb-SemiBold hover:text-blue-700 hover:underline">SPECIFICATIONS</h1></a>
             </div>
             <div className="table-responsive table-container overflow-x-auto">
-                <table className="table table-striped text-nowrap tracking-wider">
+                <table className="table text-nowrap tracking-wider">
                     <tbody>
                         <tr className="bg-gray-100 border-y">
                         <th className="align-top">
@@ -13,7 +13,7 @@ const Specifications = () => {
                         </th>
                         <th className="align-top">
                             <b>LOFT/LIE SETTINGS</b>
-                            <table className="table-auto w-full">
+                            <table className="table-auto w-full table-fixed">
                                 <tbody>
                                     <tr>
                                         <td>-1.5°</td>
@@ -52,8 +52,8 @@ const Specifications = () => {
                                 <b>9.0°</b>
                             </td>
                             <td>
-                                <table className="table-auto w-full border-hidden">
-                                    <tbody className="align-top">
+                                <table className="table-auto w-full border-hidden table-fixed align-top">
+                                    <tbody>
                                         <tr>
                                             <td >7.5°<br/>(57.50°)</td>
                                             <td>8.0°<br/>(56.80°)</td>
