@@ -6,7 +6,7 @@ return (
           <h1 className='text-3xl'>Related Products</h1>  
         </div>
         
-         <ul>
+         <ul className='flex flex-row'>
             <li className="bg-red-200 p-4 mb-2">
                 <div>
                     <img src="//cdn.shopify.com/s/files/1/0634/7833/3657/products/jqk57ckqfgp5yldo1uts_533x.jpg?v=1702389178"></img>
@@ -14,12 +14,12 @@ return (
                 <div className='bg-yellow-400 w-14 flex justify-center rounded-xl'>
                     <span>Sale</span>
                 </div>
-                <div>
+                <div className='flex flex-col'>
                     <span>AEROJET LS 50th Anniversary - Limited Edition</span>
-                    <span>2023 Driver</span>
+                    <span className='mb-10'>2023 Driver</span>
                 </div>
                 <div>
-                    <s>$599.00</s>
+                    <s className='pr-2'>$599.00</s>
                     <span>$449.00</span>
                 </div>
             </li>
@@ -31,12 +31,12 @@ return (
                 <div className='bg-yellow-400 w-14 flex justify-center rounded-xl'>
                 <span>Sale</span>
                 </div>
-                <div>
+                <div className='flex flex-col'>
                     <span>Tri-Fold</span>
-                    <span>Golf Towel</span>
+                    <span className='mb-10'>Golf Towel</span>
                 </div>
                 <div>
-                    <s>$20.00</s>
+                    <s className='pr-2'>$20.00</s>
                     <span>$12.00</span>
                 </div>
             </li>
@@ -48,12 +48,12 @@ return (
                 <div className='bg-yellow-400 w-14 flex justify-center rounded-xl'>
                     <span>Sale</span>
                 </div>
-                <div>
+                <div className='flex flex-col'>
                     <span>AEROJET Volition - Limited Edition</span>
-                    <span>2023 Driver</span>
+                    <span className='mb-10'>2023 Driver</span>
                 </div>
                 <div>
-                    <s>$599.00</s>
+                    <s className='pr-2'>$599.00</s>
                     <span>$449.00</span>
                 </div>
             </li>
