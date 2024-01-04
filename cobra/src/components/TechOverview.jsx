@@ -2,7 +2,7 @@ const TechOverview = () => {
     return(
         <>
         <div className='border-b mx-24'>
-            <h1 className='text-3xl'>TECH OVERVIEW</h1>
+            <h1 className='text-3xl hover:text-blue-700 hover:underline'>TECH OVERVIEW</h1>
         </div>
         <div className='flex flex-wrap px-24'>
             <div className='mt-5 mb-9 w-3/6 pr-2'>
