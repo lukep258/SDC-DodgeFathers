@@ -9,8 +9,8 @@ return (
         
          <ul className='flex flex-row'>
             <li className="pr-4 mb-2 w-3/12">
-                <div>
-                    <img src="//cdn.shopify.com/s/files/1/0634/7833/3657/products/jqk57ckqfgp5yldo1uts_533x.jpg?v=1702389178"></img>
+                <div className='overflow-hidden'>
+                    <img src="//cdn.shopify.com/s/files/1/0634/7833/3657/products/jqk57ckqfgp5yldo1uts_533x.jpg?v=1702389178" className='hover:scale-105 transition-transform duration-300 ease-in-out'></img>
                 </div>
                 <div className='bg-yellow-400 w-14 flex justify-center rounded-xl relative bottom-10 left-4'>
                     <span className='text-white'>Sale</span>
@@ -26,8 +26,8 @@ return (
             </li>
             
             <li className="pr-4 mb-2 w-3/12">
-                <div>
-                    <img src="//cdn.shopify.com/s/files/1/0634/7833/3657/products/693abb0998f9dd29c4a62dbe097de5d0d59a1dfe_533x.jpg?v=1702992233"></img>
+                <div className='overflow-hidden'>
+                    <img src="//cdn.shopify.com/s/files/1/0634/7833/3657/products/693abb0998f9dd29c4a62dbe097de5d0d59a1dfe_533x.jpg?v=1702992233" className='hover:scale-105 transition-transform duration-300 ease-in-out'></img>
                 </div>
                 <div className='bg-yellow-400 w-14 flex justify-center rounded-xl relative bottom-10 left-4'>
                     <span className='text-white'>Sale</span>
@@ -43,8 +43,8 @@ return (
             </li>
 
             <li className="pr-4 mb-2 w-3/12">
-                <div>
-                    <img src="//cdn.shopify.com/s/files/1/0634/7833/3657/files/up3jekd1igeekd7nedd4_533x.jpg?v=1702389275"></img>
+                <div className='overflow-hidden'>
+                    <img src="//cdn.shopify.com/s/files/1/0634/7833/3657/files/up3jekd1igeekd7nedd4_533x.jpg?v=1702389275" className='hover:scale-105 transition-transform duration-300 ease-in-out'></img>
                 </div>
                 <div className='bg-yellow-400 w-14 flex justify-center rounded-xl relative bottom-10 left-4'>
                     <span className='text-white'>Sale</span>
