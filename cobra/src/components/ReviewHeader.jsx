@@ -1,12 +1,12 @@
 const ReviewHeader = () => {
 	return (
-        <div className="flex py-5 m-auto test-class">
+        <div className="flex py-5 m-auto max-w-[75%] h-[158px] border-y-[1px] border-slate-300">
             
 			<div className="rating-and-sumReviews test-comps min-w-[220px] w-[220px]">
 				1
             </div>
             
-			<div className="star-distribution test-comps min-w-[230px] w-[230px]">
+			<div className="star-distribution test-comps min-w-[230px] w-[230px] border-l-[1px] border-slate-300">
 				2
             </div>
             
