@@ -8,6 +8,7 @@ import Carousel from './components/Carousel'
 
 import './App.css'
 import TechOverview from './components/TechOverview'
+import ReviewHeader from './components/ReviewHeader'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,13 +26,14 @@ function App() {
     <>
        
             <>
-                <Navbar />
-                <Product />
+        <Navbar />
+        <ReviewHeader />
+                {/* <Product />
                 <FactTwo/>
                 <FactThree/>
                 <Footer />
                 <FactThree />
-                <Carousel />
+                <Carousel /> */}
             </>
     </>
   );
