@@ -4,10 +4,10 @@ const Specifications = () => {
             <div className="border-b mb-7">
                 <a><h1 className="text-3xl cursor-pointer hover:text-blue-700 hover:underline">SPECIFICATIONS</h1></a>
             </div>
-            <div class="table-responsive table-container overflow-x-auto">
-                <table class="table table-striped text-nowrap">
+            <div className="table-responsive table-container overflow-x-auto">
+                <table className="table table-striped text-nowrap">
                     <tbody>
-                        <tr>
+                        <tr className="bg-slate-100">
                         <th>
                             <b>LOFT</b>
                         </th>
@@ -50,7 +50,7 @@ const Specifications = () => {
                             <b>9.0°</b>
                         </td>
                         <td>
-                            <table class="hosel-table">
+                            <table className="hosel-table">
                             <tbody><tr>
                                 <td>7.5°<br/>(57.50°)</td>
                                 <td>8.0°<br/>(56.80°)</td>
@@ -82,12 +82,12 @@ const Specifications = () => {
                             RH
                         </td>
                         </tr>
-                        <tr>
+                        <tr className="bg-slate-100">
                         <td>
                             <b>10.5°</b>
                         </td>
                         <td>
-                            <table class="hosel-table">
+                            <table className="hosel-table">
                             <tbody><tr>
                                 <td>9.0°<br/>(58.50°)</td>
                                 <td>9.5°<br/>(57.80°)</td>
