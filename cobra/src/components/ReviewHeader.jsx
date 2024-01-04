@@ -1,6 +1,6 @@
 const ReviewHeader = () => {
 	return (
-        <div className="flex py-5 mx-2.5 test-class">
+        <div className="flex py-5 m-auto test-class">
             
 			<div className="rating-and-sumReviews test-comps min-w-[220px] w-[220px]">
 				1
@@ -10,8 +10,8 @@ const ReviewHeader = () => {
 				2
             </div>
             
-            <div className="review-spacer test-comps flex-grow">
-                3
+            <div className="review-spacer flex-grow">
+                
             </div>
             
 			<div className="min-w-[162px] w-[162px] flex flex-col justify-center gap-2">
