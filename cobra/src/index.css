@@ -79,8 +79,15 @@
     opacity: 1;
 }
 
+.test-class {
+  border-top: #808386 1px solid;
+  border-bottom: #808386 1px solid;
+  margin: 0 auto;
+  max-width: 75%;
+  height: 158px;
+}
 
-/* .test-comps {
+.test-comps {
   border: red 1px solid;
 }#viewed:hover h2 {
   color: blue;
