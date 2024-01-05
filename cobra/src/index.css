@@ -79,3 +79,15 @@
     opacity: 1;
 }
 
+#viewed:hover h2 {
+  color: blue;
+  text-decoration: underline;
+}
+
+#viewed:hover p {
+  color: blue;
+}
+
+#viewed:hover img {
+  transform: scale(1.05); 
+}
