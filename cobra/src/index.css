@@ -43,3 +43,65 @@
     opacity: 1;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-transition {
+  transition: top 0.3s ease-in-out;
+  position: sticky; 
+  width: 100%;
+  top: 0;
+}
+
+.navbar-hidden {
+  top: -85px; /* Adjust this value based on your navbar's height */
+}
+
