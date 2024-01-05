@@ -1,5 +1,6 @@
 import ProductImages from './ProductImages'
 import ProductModal from './ProductModal'
+import ProductDetails from './ProductDetails'
 import { useState, useEffect } from 'react'
 
 export default function Product() {
@@ -30,9 +31,9 @@ export default function Product() {
     return (
         <>
             <div className={`product-container flex justify-center mt-10 ${windowWidth < 990 ? 'flex-col items-center' : ''}`}>
-                <div className="w-3/5">
+                <div className="flex flex-row border border-black w-3/5">
                     <ProductImages selectedImage={selectedImage} toggleModal={toggleModal} />
-                    {/* Right Column Placeholder */}
+                    <ProductDetails />
                 </div>
             </div>
             {productModal.length > 0 && (

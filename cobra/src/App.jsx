@@ -29,7 +29,7 @@ function App() {
                 <Product />
                 <FactTwo/>
                 <FactThree/>
-                <Footer />
+                {/* <Footer /> */}
                 <FactThree />
                 <Carousel />
             </>
