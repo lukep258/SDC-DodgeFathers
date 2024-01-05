@@ -1,5 +1,5 @@
 
-export default function Header() {
+const Header = () => {
     return (
         <div className="lg:grid lg:grid-cols-3 flex flex-row justify-between items-center gap-4 bg-gray-100 px-2">
             <div role="tablist" className="flex flex-row gap-2">
@@ -14,3 +14,7 @@ export default function Header() {
         </div>
     )
 }
+
+
+
+export default Header;
