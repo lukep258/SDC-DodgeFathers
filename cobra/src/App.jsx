@@ -15,6 +15,7 @@ import GripSpecs from './components/GripSpecs'
 import RelatedProducts from './components/RelatedProducts'
 import RecentlyViewed from './components/RecentlyViewed'
 import Footer from './components/Footer'
+import Klarna from './components/Klarna'
 import './App.css'
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
   return (
     <>
             <>
-                <Header />
+                {/* <Header />
                 <Navbar />
                 <Product />
                 <FactOne />
@@ -47,7 +48,8 @@ function App() {
                 <GripSpecs />
                 <RelatedProducts/>
                 <RecentlyViewed />
-                <Footer />
+                <Footer /> */}
+                <Klarna/>
             </>
     </>
   );
