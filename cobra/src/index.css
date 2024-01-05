@@ -43,6 +43,10 @@
     opacity: 1;
 }
 
+.no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
 
 
 

@@ -24,6 +24,8 @@ function debounce(func, wait = 10, immediate = true) {
 export default function Navbar() {
     const [isVisible, setIsVisible] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
+    const [sidebarOpen, setSidebarOpen] = useState(false); // New state for sidebar
+
 
     const handleScroll = debounce(() => {
         const currentScrollY = window.scrollY;
@@ -46,11 +48,24 @@ export default function Navbar() {
         };
     }, [lastScrollY]);
 
+    useEffect(() => {
+        if (sidebarOpen) {
+            document.body.classList.add('no-scroll');
+        } else {
+            document.body.classList.remove('no-scroll');
+        }
+    }, [sidebarOpen]);
+
+    // Function to toggle sidebar
+    const toggleSidebar = () => {
+        setSidebarOpen(!sidebarOpen);
+    };
+
     return (
         <div className={`navbar border-b-2 bg-base-100 navbar-transition ${isVisible ? '' : 'navbar-hidden'}`}>
             {/* Navbar content */}
             <div className="drawer">
-                <input id="my-drawer-3" type="checkbox" className="drawer-toggle" /> 
+                <input id="my-drawer-3" type="checkbox" className="drawer-toggle" onClick={toggleSidebar} /> 
                 <div className="drawer-content flex flex-row">
                     {/* Navbar */}
                     <div className="navbar bg-base-100">
@@ -69,10 +84,10 @@ export default function Navbar() {
                             {/* Navbar menu content here */}
                             <li><a className="text-base text-black ml-12 cursor-pointer">Clubs</a></li>
                             <li><a className="text-base text-black mx-2 cursor-pointer">Accessories</a></li>
-                            <li><a className="text-base text-black mx-2 cursor-pointer">Arccos Caddie</a></li>
+                            <li><a href='https://www.cobragolf.com/pages/arccos-caddie' className="text-base text-black mx-2 cursor-pointer">Arccos Caddie</a></li>
                             <li><a className="text-base text-black mx-2 cursor-pointer">Custom Fitting</a></li>
                             <li><a className="text-base text-black mx-2 cursor-pointer">On Tour</a></li>
-                            <li><a className="text-base text-black mx-2 cursor-pointer">Sale</a></li>
+                            <li><a href='https://www.cobragolf.com/collections/cobra-sale' className="text-base text-black mx-2 cursor-pointer">Sale</a></li>
                             </ul>
                         </div>
                         <div className="navbar-end flex justify-end w-1/5">
