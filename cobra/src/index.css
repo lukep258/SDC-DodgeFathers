@@ -18,8 +18,56 @@
     transition: transform 0.2s; /* Smooth transition for the scaling effect */
   }
 
+.custom-carousel-item {
+  object-fit: cover;
+  object-position: center center;
+  width: calc(33.33% - 1rem * 1 / 2);
+  max-width: 50%;
+}
 
+.custom-hero {
+  position: relative;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-color: #f3f4f5;  
+}
+
+.hero-content-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 990px) {
+  .custom-hero {
+    min-height: 625px;
+    align-items: flex-end;
+  }
+
+  .hero-content-wrapper, .hero-content {
+    width: 100%;
+  }
+
+  .hero-content-wrapper {
+    position: absolute;
+    bottom: -100px;
+    background-color: white;
+  }
+
+  .hero-content {
+    width: 100%;
+    padding: 0px 25px;
+  }
+}
   
+  #adBtn:hover {
+    color: blue;
+}
+
 .zoom-icon {
     visibility: hidden;
     opacity: 0;
@@ -31,3 +79,15 @@
     opacity: 1;
 }
 
+#viewed:hover h2 {
+  color: blue;
+  text-decoration: underline;
+}
+
+#viewed:hover p {
+  color: blue;
+}
+
+#viewed:hover img {
+  transform: scale(1.05); 
+}

@@ -9,13 +9,13 @@ export default function Navbar() {
                     </a>
                 </div>
             </div>
-            <div className="navbar-center custom-navbar">
-                <a className="text-xl text-black mx-2 cursor-pointer">Clubs</a>
-                <a className="text-xl text-black mx-2 cursor-pointer">Accessories</a>
-                <a className="text-xl text-black mx-2 cursor-pointer">Arccos Caddie</a>
-                <a className="text-xl text-black mx-2 cursor-pointer">Custom Fitting</a>
-                <a className="text-xl text-black mx-2 cursor-pointer">On Tour</a>
-                <a className="text-xl text-black mx-2 cursor-pointer">Sale</a>
+            <div className="navbar-center custom-navbar font-titillium font-semibold">
+                <a className="text-base text-black mx-2 cursor-pointer">Clubs</a>
+                <a className="text-base text-black mx-2 cursor-pointer">Accessories</a>
+                <a className="text-base text-black mx-2 cursor-pointer">Arccos Caddie</a>
+                <a className="text-base text-black mx-2 cursor-pointer">Custom Fitting</a>
+                <a className="text-base text-black mx-2 cursor-pointer">On Tour</a>
+                <a className="text-base text-black mx-2 cursor-pointer">Sale</a>
             </div>
             <div className="navbar-end">
                 <button className="scale-hover mx-2">
