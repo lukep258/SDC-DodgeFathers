@@ -28,7 +28,6 @@ function App() {
                 <Product />
                 <FactTwo/>
                 <FactThree/>
-                <Footer />
                 <FactThree />
                 <Carousel />
                 <RelatedProducts/>
