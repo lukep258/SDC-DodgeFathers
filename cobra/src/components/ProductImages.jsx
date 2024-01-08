@@ -21,7 +21,7 @@ export default function ProductImages({ selectedImage, toggleModal }) {
     };
 
     return (
-        <div className="w-2/3">
+        <div className="w-3/5 flex-1">
             <div className="product-image relative cursor-zoom-in mb-2">
                 <div
                     className={`image-container ${selectedImage === 0 ? 'border-2 border-black rounded-sm ' : ''}`}
@@ -31,7 +31,7 @@ export default function ProductImages({ selectedImage, toggleModal }) {
                     <ZoomIcon />
                 </div>
             </div>
-            <div className={`${windowWidth < 990 ? 'flex-col items-center' : 'grid grid-cols-2 gap-y-2 gap-x-4'}`}>
+            <div className={'grid grid-cols-2 gap-y-2 gap-x-4'}>
                 {imageUrls.slice(1).map((url, index) => (
                     <div className="product-image relative cursor-zoom-in" key={index + 1}>
                         <div
