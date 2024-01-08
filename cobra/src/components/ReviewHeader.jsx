@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import ReviewForm from './ReviewForm';
-
+import QuestionForm from './QuestionForm';
 
 const ReviewHeader = () => {
 
@@ -120,11 +120,11 @@ const ReviewHeader = () => {
                     <ReviewForm />
                     )}
             </div>
-            {/* <div>
+            <div>
                 {showQuestionForm && (
                     <QuestionForm />
                     )}
-            </div> */}
+            </div>
 		</div>
 	);
 };
