@@ -13,7 +13,7 @@ const ReviewHeader = () => {
     
     return (
         <div>
-            <div className="flex py-5 m-auto max-w-[75%] h-[158px] border-t-[1px] border-slate-300">
+            <div className="flex py-5 m-auto max-w-[75%] h-[158px] border-t-[1px] border-slate-300 font-titillium font-regular">
             
 			<div className="rating-and-sumReviews min-w-[220px] w-[220px] flex flex-col justify-start">
                 <div className="rating rating-md rating-half flex">
@@ -27,13 +27,13 @@ const ReviewHeader = () => {
                     <input type="radio" name="rating-10" className="mask mask-star mask-half-2 pointer-events-none"/>
                     <input type="radio" name="rating-10" className="mask mask-star mask-half-1 pointer-events-none"/>
                     <input type="radio" name="rating-10" className="mask mask-star mask-half-2 pointer-events-none" checked />
-                    <span className="text-2xl font-semibold ml-2 text-slate-500">5.0</span>
+                    <span className="text-2xl font-semibold ml-2 text-slate-500 font-roboto font-regular">5.0</span>
                 </div>
                 <span className="text-sm ml-1 text-slate-400">8 Reviews</span>
                 <span className="text-xs mt-3">1 Questions \ 1 Answers</span>
             </div>
             
-			<div className="star-distribution min-w-[230px] w-[230px] border-l-[1px] border-slate-300">
+			<div className="star-distribution min-w-[230px] w-[230px] border-l-[1px] border-slate-300 font-roboto">
                 <div className="5-star-graph flex flex-row items-center mb-1">
                     <div className="rating rating-sm ml-2">
                         <input type="radio" name="rating-1" className="mask mask-star"/>

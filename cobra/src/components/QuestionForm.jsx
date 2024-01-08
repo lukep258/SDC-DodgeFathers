@@ -2,7 +2,7 @@
 const QuestionForm = () => {
     return (
         <div className="m-auto w-[75%] flex flex-col text-slate-500">
-            <span className="font-semi-bold mb-8 text-slate-700">ASK A QUESTION</span>
+            <span className="font-semibold mb-8 text-slate-700">ASK A QUESTION</span>
             <span className="text-md mb-4"><span className="text-red-500 mr-1">*</span>Indicates a required field</span>
             <span className="text-sm mb-4"><span className="text-red-500 mr-1">*</span>Question:</span>
             <textarea name="question" rows="3" className="border border-black text-sm mb-4"></textarea>

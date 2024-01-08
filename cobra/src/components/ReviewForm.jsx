@@ -1,7 +1,7 @@
 const ReviewForm = () => {
 	return (
         <div className="m-auto w-[75%] flex flex-col text-slate-500">
-            <span className="font-semibold mb-8">WRITE A REVIEW</span>
+            <span className="font-semibold mb-8 text-slate-700">WRITE A REVIEW</span>
             <span className="text-md mb-4"><span className="text-red-500 mr-1">*</span>Indicates a required field</span>
             <span className="text-sm mb-4"><span className="text-red-500 mr-1">*</span>Score:</span>
             <div className="rating ml-[-8px] mb-4">
