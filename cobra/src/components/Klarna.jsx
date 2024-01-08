@@ -1,7 +1,7 @@
 const Klarna = () => {
 return(
   <>
-  <div className='flex flex-col justify-center items-center'>
+  <div className='flex flex-col justify-center items-center h-screen'>
     <div className='absolute top-[50px] right-[700px] font-bold'>
 
     <button>
@@ -20,19 +20,19 @@ return(
         </span>
     </div>
         {/* this is the middle component */}
-    <div className='flex flex-col justify-center items-center bg-[#f0f1f1] w-[550px] mx-auto'>
-        <span className='font-bold text-[28px]'>Buy now. Pay with Klarna at</span>
+    <div className='flex flex-col justify-center items-center bg-[#f0f1f1] w-[550px] mx-auto overflow-y-scroll'>
+        <span className='font-bold text-[28px] mt-[630px]'>Buy now. Pay with Klarna at</span>
         <span className='font-bold text-[28px] mt-[-10px] mb-2'>your own pace.</span>
         <span className='mb-5 text-sm'>Get what you love, choose how you pay.</span>
         <span className='font-semibold relative left-[-195px]'>Pay now</span>
-        <div className='h-16 w-[460px] bg-white flex flex-row justify-between items-center px-4 rounded-xl mb-4'>
+        <div className='h-16 w-[460px] bg-white flex flex-row justify-between items-center px-4 rounded-xl mb-4 py-5'>
           <span className='font-semibold text-xl'>$449.00</span>
           <div className='h-5 w-[70px] bg-green-300 flex justify-center items-center rounded-xl'>
             <span className='text-[12px] font-medium'>Pay in full</span>
           </div>
         </div>
         <span className='font-semibold relative left-[-180px]'>Pay over time</span>
-        <div className='h-16 w-[460px] bg-white flex flex-row justify-between items-center px-4 rounded-tl-xl rounded-tr-xl'>
+        <div className='h-16 w-[460px] bg-white flex flex-row justify-between items-center px-4 rounded-tl-xl rounded-tr-xl py-9'>
           <div className='flex flex-col w-30 h-12'>
             <span className='font-semibold text-xl mb-3'>$112.25</span>
             <span className='text-xs'>Every 14 days</span>
@@ -70,7 +70,7 @@ return(
           <span>In 6 weeks</span>
           </div>
         </div>
-        <div className='h-16 w-[460px] bg-white flex flex-row justify-between items-center mb-4 px-4 rounded-bl-xl rounded-br-xl border-t-[1px] border-gray-200'>
+        <div className='h-16 w-[460px] bg-white flex flex-row justify-between items-center mb-4 px-4 rounded-bl-xl rounded-br-xl border-t-[1px] border-gray-200 py-3'>
           <div className='flex flex-col text-xs items-center'>
             <span>APR</span>
             <span className='font-bold'>0%</span>
@@ -89,7 +89,7 @@ return(
             <a aria-label="terms (Opens in a new window)" class="legal-link underline" href="https://cdn.klarna.com/1.0/shared/content/legal/terms/0/en_us/sliceitinx" target="_blank">terms</a>
           .</span>
         </p>
-        <div className='h-[100px] w-[460px] bg-white flex flex-row justify-between items-center px-4 rounded-tl-xl rounded-tr-xl'>
+        <div className='h-[100px] w-[460px] bg-white flex flex-row justify-between items-center px-4 rounded-tl-xl rounded-tr-xl py-5'>
           <div className='flex flex-col w-30 h-12 mb-1'>
             <span className='font-semibold text-xl mb-1'>$79.26</span>
             <span className='text-xs'>Every month</span>
@@ -98,7 +98,7 @@ return(
             <span className='text-[12px] font-medium'>6 payments</span>
           </div>
         </div>
-        <div className='h-[50px] w-[460px] bg-white flex flex-row justify-between items-center rounded-br-xl rounded-bl-xl mb-4 border-t-[1px] border-gray-200 px-3'>
+        <div className='h-[50px] w-[460px] bg-white flex flex-row justify-between items-center rounded-br-xl rounded-bl-xl mb-4 border-t-[1px] border-gray-200 px-3 py-5'>
           <div className='flex flex-col text-xs items-center'>
             <span>APR</span>
             <span className='font-bold'>19.99%</span>
@@ -108,7 +108,7 @@ return(
             <span className='font-bold'>$449.00</span>
           </div>
         </div>
-        <div className='h-[100px] w-[460px] bg-white flex flex-row justify-between items-center px-4 rounded-tl-xl rounded-tr-xl'>
+        <div className='h-[100px] w-[460px] bg-white flex flex-row justify-between items-center px-4 rounded-tl-xl rounded-tr-xl py-5'>
           <div className='flex flex-col w-30 h-12'>
             <span className='font-semibold text-xl mb-3'>$41.59</span>
             <span className='text-xs'>Every month</span>
@@ -117,7 +117,7 @@ return(
             <span className='text-[12px] font-medium'>12 payments</span>
           </div>
         </div>
-        <div className='h-16 w-[460px] bg-white flex flex-row justify-between items-center rounded-br-xl rounded-bl-xl mb-4 border-t-[1px] border-gray-200 px-3'>
+        <div className='h-16 w-[460px] bg-white flex flex-row justify-between items-center rounded-br-xl rounded-bl-xl mb-4 border-t-[1px] border-gray-200 px-3 py-5'>
           <div className='flex flex-col text-xs items-center'>
             <span>APR</span>
             <span className='font-bold'>19.99%</span>
