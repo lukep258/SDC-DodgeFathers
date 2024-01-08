@@ -69,42 +69,42 @@ function FullScreenDropdown({ isVisible, content, onClose }) {
             displayContent = 
                 <div  className="flex flex-row justify-center font-titillium font-regular">
                     <ul className="w-[342px] mx-2">
-                        <li><a href='https://www.cobragolf.com/collections/cobra-accessories' className="text-slate-600 hover:text-black cursor-pointer">Featured</a></li>
+                        <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-accessories' className="text-slate-600 hover:text-black cursor-pointer font-titillium font-semibold">Featured</a></li>
                         <ul className="border-t-2 border-black">
-                            <li><a href='https://www.cobragolf.com/products/ultralight-pro-stand-bag' className="text-slate-400 hover:text-black cursor-pointer">UL Pro Stand Bag</a></li>
-                            <li><a href='https://www.cobragolf.com/products/microfiber-tour-towel' className="text-slate-400 hover:text-black cursor-pointer">Tour Towel</a></li>
-                            <li><a href='https://www.cobragolf.com/products/crown-c-umbrella' className="text-slate-400 hover:text-black cursor-pointer">Umbrella</a></li>
-                            <li><a href='https://www.cobragolf.com/collections/cobra-accessories-sale' className="text-slate-400 hover:text-black cursor-pointer">SALE</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/products/ultralight-pro-stand-bag' className="text-slate-400 hover:text-black cursor-pointer">UL Pro Stand Bag</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/products/microfiber-tour-towel' className="text-slate-400 hover:text-black cursor-pointer">Tour Towel</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/products/crown-c-umbrella' className="text-slate-400 hover:text-black cursor-pointer">Umbrella</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-accessories-sale' className="text-slate-400 hover:text-black cursor-pointer">SALE</a></li>
                         </ul>
                         
                     </ul>
                     <ul className="w-[342px] mx-2">
-                        <li><a href='https://www.cobragolf.com/collections/cobra-accessories' className="text-slate-600 hover:text-black cursor-pointer">Accessories</a></li>
+                        <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-accessories' className="text-slate-600 hover:text-black cursor-pointer font-titillium font-semibold">Accessories</a></li>
                         <ul className="border-t-2 border-black">
-                            <li><a href='https://www.cobragolf.com/collections/golf-clubs-headcovers' className="text-slate-400 hover:text-black cursor-pointer">Headcovers</a></li>
-                            <li><a href='https://www.cobragolf.com/collections/cobra-golf-bags' className="text-slate-400 hover:text-black cursor-pointer">Golf Bags</a></li>
-                            <li><a href='https://www.cobragolf.com/collections/cobra-accessories-headwear' className="text-slate-400 hover:text-black cursor-pointer">Hats</a></li>
-                            <li><a href='https://www.cobragolf.com/collections/cobra-accessories-gloves' className="text-slate-400 hover:text-black cursor-pointer">Gloves</a></li>
-                            <li><a href='https://www.cobragolf.com/collections/cobra-accessories-travel-gear' className="text-slate-400 hover:text-black cursor-pointer">Travel Gear</a></li>
-                            <li><a href='https://www.cobragolf.com/collections/cobra-accessories-towels' className="text-slate-400 hover:text-black cursor-pointer">Towels</a></li>
-                            <li><a href='https://www.cobragolf.com/products/cloudspun-cobra-golf-tee' className="text-slate-400 hover:text-black cursor-pointer">T-Shirt</a></li>
-                            <li><a href='https://www.cobragolf.com/collections/golf-clubs-components' className="text-slate-400 hover:text-black cursor-pointer">Club Componets</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/golf-clubs-headcovers' className="text-slate-400 hover:text-black cursor-pointer">Headcovers</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-golf-bags' className="text-slate-400 hover:text-black cursor-pointer">Golf Bags</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-accessories-headwear' className="text-slate-400 hover:text-black cursor-pointer">Hats</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-accessories-gloves' className="text-slate-400 hover:text-black cursor-pointer">Gloves</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-accessories-travel-gear' className="text-slate-400 hover:text-black cursor-pointer">Travel Gear</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-accessories-towels' className="text-slate-400 hover:text-black cursor-pointer">Towels</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/products/cloudspun-cobra-golf-tee' className="text-slate-400 hover:text-black cursor-pointer">T-Shirt</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/golf-clubs-components' className="text-slate-400 hover:text-black cursor-pointer">Club Componets</a></li>
                         </ul>
                     </ul>
                     <ul className="w-[342px] mx-2">
-                        <li><a href='https://www.cobragolf.com/collections/cobra-womens-accessories' className="text-slate-600 hover:text-black cursor-pointer">Womens</a></li>
+                        <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-womens-accessories' className="text-slate-600 hover:text-black cursor-pointer font-titillium font-semibold">Womens</a></li>
                         <ul className="border-t-2 border-black">
-                            <li><a href='https://www.cobragolf.com/collections/cobra-golf-bags' className="text-slate-400 hover:text-black cursor-pointer">Golf Bags</a></li>
-                            <li><a href='https://www.cobragolf.com/collections/cobra-womens-accessories-headwear' className="text-slate-400 hover:text-black cursor-pointer">Hats</a></li>
-                            <li><a href='https://www.cobragolf.com/collections/cobra-womens-accessories-gloves' className="text-slate-400 hover:text-black cursor-pointer">Gloves</a></li>
-                            <li><a href='https://www.cobragolf.com/collections/cobra-accessories-travel-gear/gender--womens' className="text-slate-400 hover:text-black cursor-pointer">Travel Gear</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-golf-bags' className="text-slate-400 hover:text-black cursor-pointer">Golf Bags</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-womens-accessories-headwear' className="text-slate-400 hover:text-black cursor-pointer">Hats</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-womens-accessories-gloves' className="text-slate-400 hover:text-black cursor-pointer">Gloves</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-accessories-travel-gear/gender--womens' className="text-slate-400 hover:text-black cursor-pointer">Travel Gear</a></li>
                         </ul>
                     </ul>
                     <ul className="w-[342px] mx-2">
-                        <li><a href='https://www.cobragolf.com/collections/cobra-juniors-accessories' className="text-slate-600 hover:text-black cursor-pointer">Juniors</a></li>
+                        <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-juniors-accessories' className="text-slate-600 hover:text-black cursor-pointer font-titillium font-semibold">Juniors</a></li>
                         <ul className="border-t-2 border-black">
-                            <li><a href='https://www.cobragolf.com/collections/cobra-juniors-accessories-headwear' className="text-slate-400 hover:text-black cursor-pointer">Hats</a></li>
-                            <li><a href='https://www.cobragolf.com/collections/cobra-juniors-accessories-gloves' className="text-slate-400 hover:text-black cursor-pointer">Arccos</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-juniors-accessories-headwear' className="text-slate-400 hover:text-black cursor-pointer">Hats</a></li>
+                            <li className="py-2"><a href='https://www.cobragolf.com/collections/cobra-juniors-accessories-gloves' className="text-slate-400 hover:text-black cursor-pointer">Arccos</a></li>
                         </ul>
                     </ul>
                 </div>;
