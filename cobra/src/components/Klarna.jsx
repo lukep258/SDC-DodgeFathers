@@ -1,7 +1,7 @@
 const Klarna = () => {
 return(
   <>
-  
+  <div className='flex flex-col justify-center items-center'>
     <div className='absolute top-[50px] right-[700px] font-bold'>
 
     <button>
@@ -19,11 +19,11 @@ return(
             <span className='font-bold'> Cobra Golf</span>
         </span>
     </div>
-        
+        {/* this is the middle component */}
     <div className='flex flex-col justify-center items-center bg-[#f0f1f1] w-[550px] mx-auto'>
         <span className='font-bold text-[28px]'>Buy now. Pay with Klarna at</span>
         <span className='font-bold text-[28px] mt-[-10px] mb-2'>your own pace.</span>
-        <span className='mb-5'>Get what you love, choose how you pay.</span>
+        <span className='mb-5 text-sm'>Get what you love, choose how you pay.</span>
         <span className='font-semibold relative left-[-195px]'>Pay now</span>
         <div className='h-16 w-[460px] bg-white flex flex-row justify-between items-center px-4 rounded-xl mb-4'>
           <span className='font-semibold text-xl'>$449.00</span>
@@ -134,7 +134,7 @@ return(
         </p>
         <span className='text-2xl font-bold mt-7 mb-7'>How it works</span>
         
-        <div className='bg-white h-[300px] w-[460px] rounded-xl px-5 flex flex-col justify-center'>
+        <div className='bg-white h-[300px] w-[460px] rounded-xl px-5 flex flex-col justify-center mb-14'>
           <div className='flex flex-row bg-white h-[100px] w-[400px] mt-10'>
             <div className='mt-[1px]'>
             <svg aria-hidden="true" focusable="false" role="img" width="10" height="10"><rect fill="rgba(14, 14, 15, 1)" width="10" height="10"></rect></svg>
@@ -168,15 +168,19 @@ return(
             </div>
           </div>
         </div>
-        <div className='flex flex-col justify-center items-center bg-stone-950 h-[50px] w-[470px]'>
+    </div>
+    {/* end of middle component */}
+    <div className='flex flex-col justify-center items-center bg-[#f0f1f1] w-[550px] mx-auto'>
+      <div className='flex flex-col justify-center items-center bg-stone-950 h-[50px] w-[470px]'>
           <div className='text-white'>Close</div>
         </div>
     </div>
-
-
-
-
     
+
+
+
+
+    </div>
 </>  
 )
 
