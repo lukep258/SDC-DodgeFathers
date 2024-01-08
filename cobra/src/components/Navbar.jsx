@@ -1,3 +1,5 @@
+import globoGymGolf from '../assets/globo-gym-golf.png'
+
 
 export default function Navbar() {
     return (
@@ -5,7 +7,8 @@ export default function Navbar() {
             <div className="navbar-start">
                 <div className="flex-1">
                     <a className="btn btn-ghost text-xl">
-                        <img src="https://cdn.shopify.com/s/files/1/0634/7833/3657/files/COBRA-logo-2023-black.svg?v=1689364201" alt="logo" className="w-32" />
+                        
+                        <img src={globoGymGolf} alt="logo" className="w-48" />
                     </a>
                 </div>
             </div>
