@@ -48,7 +48,6 @@ function App() {
                 <GripSpecs />
                 <RelatedProducts/>
                 <RecentlyViewed />
-                <ReviewHeader />
                 <Footer />
             </>
     </>
