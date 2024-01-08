@@ -17,7 +17,6 @@ import RelatedProducts from './components/RelatedProducts'
 import RecentlyViewed from './components/RecentlyViewed'
 import Footer from './components/Footer'
 import './App.css'
-import ReviewHeader from './components/ReviewHeader'
 
 function App() {
   const [count, setCount] = useState(0)
