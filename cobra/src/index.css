@@ -79,10 +79,7 @@
     opacity: 1;
 }
 
-
-/* .test-comps {
-  border: red 1px solid;
-}#viewed:hover h2 {
+#viewed:hover h2 {
   color: blue;
   text-decoration: underline;
 }
