@@ -85,10 +85,146 @@ return(
           </div>
         </div>
         <p>
-          <span> A higher initial payment may be required for some consumers. CA residents: Loans made or arranged pursuant to a California Financing Law license. See payment&nbsp;
+          <span className='text-xs px-5'> A higher initial payment may be required for some consumers. CA residents: Loans made or arranged pursuant to a California Financing Law license. See payment&nbsp;
             <a aria-label="terms (Opens in a new window)" class="legal-link underline" href="https://cdn.klarna.com/1.0/shared/content/legal/terms/0/en_us/sliceitinx" target="_blank">terms</a>
           .</span>
         </p>
+        <div className='h-16 w-[460px] bg-gray-400 flex flex-row justify-between items-center px-4 rounded-tl-xl rounded-tr-xl mb-4'>
+          <div className='flex flex-col w-30 h-12'>
+            <span className='font-semibold text-xl mb-3'>$79.26</span>
+            <span className='text-xs'>Every month</span>
+          </div>
+          <div className='h-5 w-[80px] bg-blue-200 flex justify-center items-center rounded-xl mt-[-23px]'>
+            <span className='text-[12px] font-medium'>6 payments</span>
+          </div>
+        </div>
+        <div className='h-16 w-[460px] bg-gray-400 flex flex-row justify-between items-center mb-4'>
+          <div className='flex flex-col text-xs items-center'>
+            <span>APR</span>
+            <span className='font-bold'>19.99%</span>
+          </div>
+          <div className='flex flex-col text-xs items-center'>
+            <span>Total</span>
+            <span className='font-bold'>$449.00</span>
+          </div>
+        </div>
+        <div className='h-16 w-[460px] bg-gray-400 flex flex-row justify-between items-center px-4 rounded-tl-xl rounded-tr-xl mb-4'>
+          <div className='flex flex-col w-30 h-12'>
+            <span className='font-semibold text-xl mb-3'>$41.59</span>
+            <span className='text-xs'>Every month</span>
+          </div>
+          <div className='h-5 w-[80px] bg-blue-200 flex justify-center items-center rounded-xl mt-[-23px]'>
+            <span className='text-[12px] font-medium'>12 payments</span>
+          </div>
+        </div>
+        <div className='h-16 w-[460px] bg-gray-400 flex flex-row justify-between items-center mb-4'>
+          <div className='flex flex-col text-xs items-center'>
+            <span>APR</span>
+            <span className='font-bold'>19.99%</span>
+          </div>
+          <div className='flex flex-col text-xs items-center'>
+            <span>Total</span>
+            <span className='font-bold'>$449.00</span>
+          </div>
+        </div>
+        <p>
+          <span className='text-xs px-5'> Rate ranges from 7.99%-33.99% APR. A down payment may be required. Estimation excludes potential tax and shipping costs. Monthly financing through Klarna issued by WebBank, member FDIC and subject to credit approval.&nbsp;
+          <a aria-label="Terms and conditions (Opens in a new window)" class="legal-link underline" href="https://www.klarna.com/us/legal/" target="_blank">Terms and conditions</a>
+          .</span>
+        </p>
+        <span className='text-2xl font-bold'>How it works</span>
+        {/* <div className='h-16 w-[460px] bg-orange-400 flex flex-row items-center px-4 rounded-tl-xl rounded-tr-xl'>
+          <div className='mr-[15px]'>
+          <svg aria-hidden="true" focusable="false" role="img" width="10" height="10"><rect fill="rgba(14, 14, 15, 1)" width="10" height="10"></rect></svg>
+          </div>
+          <div>
+            <p className='font-semibold'>At Checkout select Klarna</p>
+          </div>
+        </div>
+        <div className='h-21 w-[460px] bg-orange-400 flex flex-row items-center px-4 rounded-tl-xl rounded-tr-xl mb-4 mt-[-20px]'>
+          <div className='mr-[15px] pb-[11px]'>
+          <svg aria-hidden="true" focusable="false" role="img" width="10" height="10"><rect fill="rgba(14, 14, 15, 1)" width="10" height="10"></rect></svg>
+          </div>
+          <div>
+            <p className='font-semibold pt-[33px]'>Choose your payment plan</p>
+            <p>Different payment plans may be shown depending on the purchase amount and credit score.</p>
+          </div>
+        </div> */}
+
+
+        {/* <div className='h-[300px] w-[460px] bg-orange-400 rounded-xl flex flex-col'>
+          <div className='flex flex-row'>
+            <div className='ml-10 mt-10 mb-10 flex flex-col'>
+          <svg aria-hidden="true" focusable="false" role="img" width="10" height="10"><rect fill="rgba(14, 14, 15, 1)" width="10" height="10"></rect></svg>
+          <div className='absolute left-[800px] bottom-[-150px]'>
+            <p className='font-semibold'>At Checkout select Klarna</p>
+          </div>
+          <div className="relative left-[4px] h-[40px] bg-black w-0.5"></div>
+          </div>
+          </div>
+          
+
+
+          <div className='flex flex-row mt-[-80px]'>
+            <div className='ml-10 mt-10 mb-10 flex flex-col'>
+          <svg aria-hidden="true" focusable="false" role="img" width="10" height="10"><rect fill="rgba(14, 14, 15, 1)" width="10" height="10"></rect></svg>
+          <div className=' flex flex-wrap absolute left-[800px] bottom-[-203px]'>
+            <p className='font-semibold'>Choose your payment plan</p>
+            <p classname='font-semibold'>Different payment plans may be shown depending on the purchase amount and credit score.</p>
+          </div>
+          <div className="relative left-[4px] h-[60px] bg-black w-0.5"></div>
+          </div>
+          </div>
+
+
+
+          <div className='flex flex-row mt-[-80px]'>
+            <div className='ml-10 mt-10 mb-10 flex flex-col'>
+          <svg aria-hidden="true" focusable="false" role="img" width="10" height="10"><rect fill="rgba(14, 14, 15, 1)" width="10" height="10"></rect></svg>
+          <div className='absolute left-[800px] bottom-[-150px]'>
+            <p className='font-semibold'>At Checkout select Klarna</p>
+          </div>
+          </div>
+          </div>
+          
+        </div> */}
+        <div className='bg-orange-400 h-[300px] w-[460px] rounded-xl px-5 flex flex-col justify-center'>
+          <div className='flex flex-row bg-green-400 h-[100px] w-[400px] mt-10'>
+            <div className='mt-[1px]'>
+            <svg aria-hidden="true" focusable="false" role="img" width="10" height="10"><rect fill="rgba(14, 14, 15, 1)" width="10" height="10"></rect></svg>
+            <div className="relative left-[4px] h-[40px] bg-black w-0.5"></div>
+            </div>
+            <div className='ml-4 mt-[-4px]'>
+              <p className='font-semibold'>At checkout select Klarna</p>
+            </div>
+          </div>
+
+          <div className='flex flex-row bg-green-400 h-[100px] w-[400px] mt-[-50px]'>
+            <div>
+            <svg aria-hidden="true" focusable="false" role="img" width="10" height="10"><rect fill="rgba(14, 14, 15, 1)" width="10" height="10"></rect></svg>
+            <div className="relative left-[4px] h-[70px] bg-black w-0.5"></div>
+            </div>
+            <div className='ml-4 mt-[-4px]'>
+              <p className='font-semibold'>Choose your payment plan</p>
+              <p>Different payment plans may be shown depending on the purchase amount and credit score.</p>
+            </div>
+          </div>
+
+          <div className='flex flex-row bg-green-400 h-[100px] w-[400px] mt-[-20px]'>
+            <div>
+            <svg aria-hidden="true" focusable="false" role="img" width="10" height="10"><rect fill="rgba(14, 14, 15, 1)" width="10" height="10"></rect></svg>
+          
+            </div>
+            <div className='ml-4 mt-[-4px]'>
+              <p className='font-semibold'>Complete your checkout</p>
+              <p>The amount will be charged based on the payment plan you chose.</p>
+              
+            </div>
+          </div>
+        </div>
+        
+
+
     </div>
 
 
