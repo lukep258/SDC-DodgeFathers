@@ -31,8 +31,8 @@ const RecentlyViewed = () => {
 
 
   return (
-    <div className="py-8 mx-12">
-      <h3 className="text-2xl border-b pb-2">RECENTLY VIEWED</h3>
+    <div className="py-8 mx-12 font-titillium">
+      <h3 className="text-2xl font-semibold border-b pb-2">RECENTLY VIEWED</h3>
       <ul className='grid grid-cols-2 gap-4 md:grid-cols-4' id="reviewedList">
         {viewed.map((item, index) => (
           <li key={index}>

@@ -2,13 +2,13 @@ const ShaftSpecs = () => {
 
 
     return (
-      <div className="mx-12 py-8 font-titillium" >
-        <div className="border-b mb-7">
+      <div className="mx-12 py-8 font-titillium text-gray-500" >
+        <div className="border-b mb-7  text-gray-700">
             <a><h1 className="text-3xl cursor-pointer font-semibold hover:text-blue-700 hover:underline">SHAFT SPECS</h1></a>
         </div>
         
   
-        <h3 className="text-[18px] font-bold mb-2">Project X HZRDUS Gen 4 Black</h3>
+        <h3 className="text-[18px] font-bold mb-2 text-gray-700">Project X HZRDUS Gen 4 Black</h3>
   
         <p className="mb-4 text-zinc-600">
           Utilizing a new Dual Torsional Design throughout the shaft, HZRDUS Black Gen 4 creates optimized torques and maximum stability while featuring the classic HZRDUS Black profile of stiff butt, x-stiff midsection, and stiff tip, suited for an aggressive swinger

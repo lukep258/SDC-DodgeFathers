@@ -1,7 +1,7 @@
 const RelatedProducts = () => {
 return (
     <>
-    <div className='flex justify-center mt-10'>
+    <div className='flex justify-center m-12 font-titillium'>
         <div>
         <div className='border-b mx-30'>
           <h1 className='text-3xl mb-1'>Related Products</h1>  
