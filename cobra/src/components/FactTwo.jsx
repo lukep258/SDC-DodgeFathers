@@ -7,8 +7,8 @@ const FactTwo = () => {
                 <img className="mr-20 ml-44" src="http://images.salsify.com/image/upload/s--_4se3riN--/efyy1hkdejstekvzkh5v.png" loading='lazy' alt='Swing Your Fastest'>
                 </img>
             </div>
-            <div className="flex flex-col justify-start w-80 grow mr-20 ml-10">
-                <h1 className ="text-3xl font-medium mb-6">Swing Your Fastest</h1>
+            <div className="flex flex-col justify-start w-80 grow mr-20 ml-10 font-titillium">
+                <h1 className ="text-3xl font-semibold mb-6">Swing Your Fastest</h1>
                 <div>
                 Validated by the fastest players in the world The AEROJET Drivers features a raised skirt, 
                 symmetrical shaping, and streamlined edges to give you the most speed possible. 
