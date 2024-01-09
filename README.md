@@ -2,6 +2,9 @@
 Front End Capstone - which will look like the cobra golf product detail page
 https://www.cobragolf.com/collections/golf-clubs-drivers/products/aerojet-50-anv-driver
 
+### Deployed on Render
+https://purple-cobras.onrender.com/
+
 ## Dependencies and Technologies Incorporated
 
 - Vite build tool with React template
@@ -12,9 +15,9 @@ https://www.cobragolf.com/collections/golf-clubs-drivers/products/aerojet-50-anv
 - React w/ JSX and raw JavaScript
 
 ### Installing
-1. Create desired directory
+1. CD to desired directory
    ```
-   mkdir YOUR_FILE_NAME
+   cd YOUR_FILE_NAME
    ```
    
 2. Clone into the repository
