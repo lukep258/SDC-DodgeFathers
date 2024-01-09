@@ -47,7 +47,7 @@ https://purple-cobras.onrender.com/
 
 - Drew Kullman https://www.linkedin.com/in/drew-kullman/
 
-- Will Rhee
+- Will Rhee https://www.linkedin.com/in/william-rhee/
 
 - Ryan Patino
 
