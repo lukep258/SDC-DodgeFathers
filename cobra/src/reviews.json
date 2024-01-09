@@ -7,7 +7,9 @@
         "stars": 5,
         "title": "great club!",
         "review": "I hit that driver consistently solid!",
-        "link": null
+        "link": null,
+        "upVote": 0,
+        "downVote": 0
     },
     {
         "firstLetter": "S",
@@ -17,7 +19,9 @@
         "stars": 5,
         "title": "Aerojet driver",
         "review": "Amazing feeling and sounding driver.",
-        "link": null
+        "link": null,
+        "upVote": 0,
+        "downVote": 0
     },
     {
         "firstLetter": "S",
@@ -27,7 +31,9 @@
         "stars": 5,
         "title": "Awesome Distance and Dispersion",
         "review": "The Cobra Aerojet driver with the UST Helium shaft exceeds my expectations for stability, distance, and forgiveness.",
-        "link": null
+        "link": null,
+        "upVote": 0,
+        "downVote": 0
     },
     {
         "firstLetter": "A",
@@ -37,7 +43,9 @@
         "stars": 5,
         "title": "Hit it for the firat",
         "review": "Hit it for the firat time Sunday. No practice. Straight to the course. Absolutely love it. Swings so smother and the impact is great. Perfect for me",
-        "link": null
+        "link": null,
+        "upVote": 0,
+        "downVote": 0
     },
     {
         "firstLetter": "J",
@@ -47,7 +55,9 @@
         "stars": 5,
         "title": "Phenomenal Club",
         "review": "Been playing cobra for years. By far the best driver I have played. The distance and forgiveness have helped my game tremendously. Gonna order the 3 wood soon.",
-        "link": null
+        "link": null,
+        "upVote": 0,
+        "downVote": 0
     },
     {
         "firstLetter": "T",
@@ -57,7 +67,9 @@
         "stars": 5,
         "title": "Aerojet",
         "review": "Lovely club! Out driving buddies by 30!",
-        "link": "https://cdn-yotpo-images-production.yotpo.com/Review/468792958/422669706/original.jpg?1683819268"
+        "link": "https://cdn-yotpo-images-production.yotpo.com/Review/468792958/422669706/original.jpg?1683819268",
+        "upVote": 0,
+        "downVote": 0
     },
     {
         "firstLetter": "W",
@@ -67,7 +79,9 @@
         "stars": 5,
         "title": "Cobra Golfer 4 Life",
         "review": "I have been playing Cobra Golf clubs for 31 years. My first starter set was a cobra and I have used them ever since. This limited edition driver is a great way for Cobra to celebrate 50 years of success. I will probably hardly ever use this club as I want it to stay in its prestigious condition or I get a chance down the road to play Pebble Beach",
-        "link": null
+        "link": null,
+        "upVote": 0,
+        "downVote": 0
     },
     {
         "firstLetter": "R",
@@ -77,6 +91,8 @@
         "stars": 5,
         "title": "Love it! Performance matches looks.",
         "review": "10-15 yards gained. And finding fairways. Could not be happier.",
-        "link": null
+        "link": null,
+        "upVote": 0,
+        "downVote": 0
     }
 ]
