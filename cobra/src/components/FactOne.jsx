@@ -8,8 +8,8 @@ const FactOne = () => {
             <div className="hero-content-wrapper">
                 <div className="hero-content font-titillium" style={{width: '80%', padding: '0 100px'}}>
                     <div className="hero-content-inner-wrapper" style={{ padding: '20px 0' }}>
-                        <h1 className="mb-5 text-3xl font-semibold">Faster By Design</h1>
-                        <p>Seamlessly aerodynamic, boldly designed. COBRA AEROJET enables new levels of speed that 
+                        <h1 className="mb-5 text-2xl font-bold">Faster By Design</h1>
+                        <p className="text-sm">Seamlessly aerodynamic, boldly designed. COBRA AEROJET enables new levels of speed that 
                             were not believed to be possible until now.
                         </p>
                     </div>

@@ -1,23 +1,30 @@
-const Klarna = () => {
+const Klarna = ({learnMore, setLearnMore}) => {
+  const handleXClick = () => {
+    setLearnMore(false)
+  }
+
+  const handleCloseClick = () => {
+    setLearnMore(false)
+  }
 return(
   <>
-  <div className='flex flex-col justify-center items-center h-screen'>
-    <div className='absolute top-[50px] right-[700px] font-bold'>
+  
 
-    <button>
-    <span class="material-symbols-outlined border-2 border-black inline-flex items-center justify-center h-8 w-8 rounded-full hover:border-transparent">
-  close
-</span>
-    </button>
-    
-
-    </div>
-
+  
+  <div className='flex flex-col justify-center items-center h-screen absolute z-10 bg-white'>
     <div className='flex flex-col justify-center items-center bg-white w-3/12 h-[60px] mx-auto mt-10'>
     <svg aria-label="Klarna" role="img" focusable="false" width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Klarna badge</title><rect width="48" height="24" rx="2" fill="#FFB3C7"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M10.684 8h1.82a6.448 6.448 0 0 1-1.902 4.596l2.569 3.501h-2.295l-2.791-3.805.72-.54A4.648 4.648 0 0 0 10.684 8Zm24.725 5.296c0 .797.68 1.44 1.519 1.44.838 0 1.518-.643 1.518-1.44 0-.795-.68-1.44-1.518-1.44-.84 0-1.519.645-1.519 1.44Zm3.042-2.44v-.36h1.678v5.6H38.45v-.358a2.954 2.954 0 1 1 0-4.883ZM6 16.097h1.863V8H6v8.097Zm9.466-.002h-1.755V8h1.755v8.095Zm15.391-5.75c-.668 0-1.302.209-1.726.783v-.63h-1.669v5.597h1.69v-2.942c0-.851.57-1.268 1.259-1.268.735 0 1.16.44 1.16 1.257v2.953h1.673v-3.561c0-1.302-1.036-2.189-2.387-2.189Zm-13.131 2.95c0 .798.68 1.441 1.518 1.441.84 0 1.519-.643 1.519-1.44 0-.795-.68-1.44-1.519-1.44-.838 0-1.518.645-1.518 1.44Zm3.042-2.44v-.36h1.677v5.6h-1.677v-.357a2.954 2.954 0 1 1 0-4.883Zm4.27.371v-.729h-1.716v5.598h1.72v-2.614c0-.882.955-1.356 1.618-1.356h.02v-1.628c-.68 0-1.307.293-1.642.73Zm15.817 3.936a1.053 1.053 0 1 1 2.106-.001 1.053 1.053 0 0 1-2.106.001Z" fill="#17120F"></path></svg>
         <span> In collaboration with
             <span className='font-bold'> Cobra Golf</span>
         </span>
+        <div className='absolute top-[50px] right-[700px] font-bold'>
+        
+        <span onClick={handleXClick} class="material-symbols-outlined border-2 border-black inline-flex items-center justify-center h-8 w-8 rounded-full hover:border-transparent absolute left-[650px]">
+          close
+        </span>
+        
+      </div>
+
     </div>
         {/* this is the middle component */}
     <div className='flex flex-col justify-center items-center bg-[#f0f1f1] w-[550px] mx-auto overflow-y-scroll'>
@@ -172,14 +179,9 @@ return(
     {/* end of middle component */}
     <div className='flex flex-col justify-center items-center bg-[#f0f1f1] w-[550px] mx-auto'>
       <div className='flex flex-col justify-center items-center bg-stone-950 h-[50px] w-[470px]'>
-          <div className='text-white'>Close</div>
+          <div className='text-white' onClick={handleCloseClick}>Close</div>
         </div>
     </div>
-    
-
-
-
-
     </div>
 </>  
 )

@@ -1,3 +1,5 @@
+import globoGymGolf from '../assets/globo-gym-golf.png'
+
 
 import React, { useState, useEffect } from 'react';
 import FullScreenDropdown from './FullScreenDropdown';
@@ -83,6 +85,7 @@ export default function Navbar() {
     };
 
     return (
+
         <div className={`navbar h-16 border-b-2 bg-base-100 z-50 navbar-transition ${isVisible ? '' : 'navbar-hidden'}`}>
             {/* Navbar content */}
             <div className="drawer">
