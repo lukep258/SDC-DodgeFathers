@@ -33,7 +33,7 @@ function App() {
   return (
     <>
             <>
-                {/* <Header />
+                <Header />
                 <Navbar />
                 <Product />
                 <FactOne />
@@ -48,8 +48,8 @@ function App() {
                 <GripSpecs />
                 <RelatedProducts/>
                 <RecentlyViewed />
-                <Footer /> */}
-                <Klarna/>
+                <Footer />
+                
             </>
     </>
   );

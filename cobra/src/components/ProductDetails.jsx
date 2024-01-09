@@ -5,12 +5,20 @@
 import React, { useState, useEffect } from 'react';
 import CobraClub from '../assets/cobra-club.js'
 import CustomClub from './CustomClub'
+import Klarna from './Klarna.jsx';
+
 
 const ProductDetails = () => {
     const [selectedHand, setSelectedHand] = useState('Right');
     const [selectedLoft, setSelectedLoft] = useState('9.0');
     const [isSoldOut, setSoldOut] = useState(false);
-    const [customDropdownOpen, setCustomDropdownOpen] = useState(false);
+    const [learnMore, setLearnMore] = useState(false)
+
+    
+
+    const handleLearnMoreClick = () => {
+        setLearnMore(true);
+    }
 
     const handleHandClick = (value) => {
         setSelectedHand(value);
@@ -34,27 +42,16 @@ const ProductDetails = () => {
         checkSoldOut();
     }, [selectedHand, selectedLoft]);
 
-   
-        
-    const openCustomize = () => {
-        if (!isSoldOut) {
-          setCustomDropdownOpen(true);
-        } else {
-          setCustomDropdownOpen(false);
-        }
-      };
-
-
-
     return (
         <>
+        {learnMore && <Klarna learnMore={learnMore} setLearnMore={setLearnMore}/>}
             <div className="w-2/5 flex-initial flex-row justify-center ">
                 <div className="product-details sticky flex-col min-w-[330px] overflow-x-auto  w-8/12 ">
                     <header className="m-1 text-[22px] font-titillium font-semibold">
                         AEROJET 50th Anniversary Driver - Limited Edition
                     </header>
                     <p><span className="line-through">$599.00</span> <span className="font-semibold text-xl">$449.00</span></p>
-                    <p className="my-4 text-xl">4 interest-free payments of $112.25 with <b>Klarna.</b> <u>Learn More</u></p>
+                    <p className="my-4 text-xl">4 interest-free payments of $112.25 with <b>Klarna.</b> <u onClick={handleLearnMoreClick}>Learn More</u></p>
                     <div className="w-[98%] mx-auto h-px bg-gray-200"></div>
                     <p className="mx-1 my-5 text-[14px]">The COBRA AEROJET 50th Anniversary Limited Edition Driver was designed to celebrate our fans,
                         players, and all golf enthusiasts. Bold design, alongside next-level innovations,
