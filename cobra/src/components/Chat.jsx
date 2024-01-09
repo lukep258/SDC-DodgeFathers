@@ -70,7 +70,7 @@ const formattedTime = `${hours}:${minutes} ${amOrPm}`;
                 </div>
               </div>
               <div className='flex justify-center mt-24'>
-              <div className='rounded-lg bg-white shadow py-2 w-11/12' >
+              <div className='rounded-lg bg-white shadow py-2 w-11/12 mb-20' >
                   <div className='flex justify-between border-b '>
                     <h2 className='ml-3'>FAQs</h2>
                     <img className='size-7 mr-4 mb-1 cursor-pointer hover:bg-slate-200 rounded-xl opacity-50 flex items-center' src='https://cdn.icon-icons.com/icons2/1510/PNG/512/magnifiersearchinterfacecircularbutton_104679.png' />
@@ -91,9 +91,9 @@ const formattedTime = `${hours}:${minutes} ${amOrPm}`;
                 </div>
               </div>
 
-              <div className='bg-orange-400 rounded-lg mt-14 text-white text-[12px] py-5' >
+              {/* <div className='bg-orange-400 rounded-lg mt-14 text-white text-[12px] py-5' >
                 <p className='grid place-content-center'>We are outside our business hours. Please come back later.</p>
-              </div>
+              </div> */}
             </div>
         </div>
       )}
