@@ -37,6 +37,8 @@ https://purple-cobras.onrender.com/
 
 ## Help
   Deployment on Render
+  
+  **See Acknowledgements below for link to create profile**
   - Make sure settings target the correct directories
     - Root Directory = './cobra' or './YOUR_PATH'
     - Build command = 'npm run build'
@@ -56,3 +58,4 @@ https://purple-cobras.onrender.com/
 ## Acknowledgements
 
 https://www.cobragolf.com/ - Original Site 
+https://render.com/ - Deployment website
