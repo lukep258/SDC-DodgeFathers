@@ -14,6 +14,7 @@ import ShaftSpecs from './components/ShaftSpecs'
 import GripSpecs from './components/GripSpecs'
 import RelatedProducts from './components/RelatedProducts'
 import RecentlyViewed from './components/RecentlyViewed'
+import Reviews from './components/Reviews'
 import Footer from './components/Footer'
 import './App.css'
 
@@ -32,7 +33,7 @@ function App() {
   return (
     <>
             <>
-                <Header />
+                {/* <Header />
                 <Navbar />
                 <Product />
                 <FactOne />
@@ -46,7 +47,8 @@ function App() {
                 <ShaftSpecs />
                 <GripSpecs />
                 <RelatedProducts/>
-                <RecentlyViewed />
+                <RecentlyViewed /> */}
+                <Reviews />
                 <Footer />
             </>
     </>
