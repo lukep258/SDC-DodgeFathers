@@ -9,6 +9,7 @@ import Fact4 from './components/Fact4'
 import Carousel from './components/Carousel'
 import Ad from './components/Ad'
 import TechOverview from './components/TechOverview'
+import ReviewHeader from './components/ReviewHeader'
 import Specifications from './components/Specifications'
 import ShaftSpecs from './components/ShaftSpecs'
 import GripSpecs from './components/GripSpecs'
@@ -47,6 +48,7 @@ function App() {
                 <GripSpecs />
                 <RelatedProducts/>
                 <RecentlyViewed />
+                <ReviewHeader />
                 <Footer />
             </>
     </>

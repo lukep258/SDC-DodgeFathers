@@ -79,12 +79,10 @@
     opacity: 1;
 }
 
-
 .no-scroll {
   overflow: hidden;
   height: 100%;
 }
-
 
 
 .navbar-transition {
@@ -98,7 +96,6 @@
   top: -85px; /* Adjust this value based on your navbar's height */
 }
 
-
 #viewed:hover h2 {
   color: blue;
   text-decoration: underline;
@@ -111,4 +108,3 @@
 #viewed:hover img {
   transform: scale(1.05); 
 }
-
