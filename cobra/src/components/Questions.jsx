@@ -25,7 +25,7 @@ const Questions = () => {
                   <p className="font-semibold text-l">George</p>
                   <p className="">Verified Reviewer</p>
                 </div>
-                <p className="font-semibold">09/04/23</p>
+                <p className="font-regular">09/04/23</p>
               </div>
               <div>
                 <p className="font-semibold">
@@ -52,7 +52,7 @@ const Questions = () => {
                     <div className="flex flex-row gap-2">
                         <p className="font-semibold text-l">Store Owner</p>
                     </div>
-                    <p className="font-semibold">09/05/23</p>
+                    <p className="font-regular">09/05/23</p>
                     </div>
                     <div>
                     <pre className="font-titillium text-l">
