@@ -45,7 +45,7 @@ https://purple-cobras.onrender.com/
  
 ## Authors
 
-- Drew Kullman
+- Drew Kullman https://www.linkedin.com/in/drew-kullman/
 
 - Will Rhee
 
@@ -53,7 +53,7 @@ https://purple-cobras.onrender.com/
 
 - Steffan Hinkle
 
-- Mike Mote
+- Mike Mote https://www.linkedin.com/in/michael-t-mote/
 
 ## Acknowledgements
 
