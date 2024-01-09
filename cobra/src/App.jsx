@@ -18,6 +18,7 @@ import RecentlyViewed from './components/RecentlyViewed'
 import TabComponent from './components/ReviewQuestionDisplay'
 import Footer from './components/Footer'
 import Klarna from './components/Klarna'
+import Chat from './components/Chat'
 import './App.css'
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
                 <RecentlyViewed />
                 <ReviewHeader />
                 <Footer />
+                <Chat />
                 <Klarna/>
             </>
     </>
