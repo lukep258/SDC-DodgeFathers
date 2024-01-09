@@ -1,10 +1,17 @@
-const Klarna = () => {
+const Klarna = ({learnMore, setLearnMore}) => {
+  const handleXClick = () => {
+    setLearnMore(false)
+  }
+
+  const handleCloseClick = () => {
+    setLearnMore(false)
+  }
 return(
   <>
-  <div className='flex flex-col justify-center items-center h-screen'>
+  <div className='flex flex-col justify-center items-center h-screen '>
     <div className='absolute top-[50px] right-[700px] font-bold'>
 
-    <button>
+    <button onClick={handleXClick}>
     <span class="material-symbols-outlined border-2 border-black inline-flex items-center justify-center h-8 w-8 rounded-full hover:border-transparent">
   close
 </span>
@@ -172,7 +179,7 @@ return(
     {/* end of middle component */}
     <div className='flex flex-col justify-center items-center bg-[#f0f1f1] w-[550px] mx-auto'>
       <div className='flex flex-col justify-center items-center bg-stone-950 h-[50px] w-[470px]'>
-          <div className='text-white'>Close</div>
+          <div className='text-white' onClick={handleCloseClick}>Close</div>
         </div>
     </div>
     
