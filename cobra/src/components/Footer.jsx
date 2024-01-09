@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <>  
             <div className='flex flex-wrap justify-center bg-black w-full h-96 text-white font-titillium'>
-                <div className='grid grid-cols-5 items-center justify-between w-4/5'>
+                <div className='grid grid-cols-5 items-center justify-between w-full mx-12'>
                     <div className='footer-block flex flex-col w-100 h-60 p-2 leading-7'>
                             <header className="footer-title text-xl">Support</header>
                             <div className="w-full h-px bg-gray-600"></div>
@@ -60,7 +60,7 @@ export default function Footer() {
                                 <option value="https://www.cobragolf.com/" className='bg-white text-black'>United States</option>
                             </select>
                     </div>
-                    <div className='mb-10 flex justify-between w-full col-span-5 px-3 text-l text-gray-400'>
+                    <div className='mb-10 flex justify-between w-full col-span-5 px-3 text-sm text-gray-400'>
                         <div className='flex gap-2'>
                                 <a href="https://www.cobragolf.com/pages/community-policies" className="link link-hover">Community Policies</a>
                                 <a href="https://www.cobragolf.com/pages/terms" className="link link-hover">Terms & Conditions</a>
