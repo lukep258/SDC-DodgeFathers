@@ -1,13 +1,13 @@
 const Specifications = () => {
     return (
-        <div className="mx-12 py-8">
+        <div className="mx-12 py-8 font-titillium text-gray-500">
             <div className="border-b mb-7">
-                <a><h1 className="text-3xl cursor-pointer font-TitilliumWeb-SemiBold hover:text-blue-700 hover:underline">SPECIFICATIONS</h1></a>
+                <a><h1 className="text-3xl cursor-pointer font-bold hover:text-blue-700 hover:underline" href="#specTable">SPECIFICATIONS</h1></a>
             </div>
-            <div className="table-responsive table-container overflow-x-auto">
+            <div className="table-responsive table-container overflow-x-auto" id="specTable">
                 <table className="table text-nowrap tracking-wider">
                     <tbody>
-                        <tr className="bg-gray-100 border-y">
+                        <tr className="bg-gray-100 text-gray-700 border-y">
                         <th className="align-top">
                             <b>LOFT</b>
                         </th>
