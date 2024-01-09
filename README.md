@@ -49,13 +49,13 @@ https://purple-cobras.onrender.com/
 
 - Will Rhee https://www.linkedin.com/in/william-rhee/
 
-- Ryan Patino
+- Ryan Patino https://www.linkedin.com/in/ryan-patino
 
-- Steffan Hinkle
+- Steffan Hinkle https://www.linkedin.com/in/steffanhinkle/ 
 
 - Mike Mote https://www.linkedin.com/in/michael-t-mote/
 
-## Acknowledgements
+## Acknowledgements 
 
 https://www.cobragolf.com/ - Original Site
 
