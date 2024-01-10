@@ -18,6 +18,7 @@ app.use(cors());
 
 // METHODS -------
 
+
 //GET ALL
 app.get(`${URL}`, async (req, res, next) => {
     try {
