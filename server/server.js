@@ -1,9 +1,15 @@
 import express from 'express';
+import rateLimit from 'express-rate-limit';
 import pg from 'pg';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
 dotenv.config();
+
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000,
+    limit: 25
+})
 
 const PORT = process.env.PORT;
 const URL = '/api';
@@ -15,6 +21,7 @@ const app = express();
 app.use(express.static('public'));
 app.use(express.json());
 app.use(cors());
+app.use(limiter)
 
 // METHODS -------
 
