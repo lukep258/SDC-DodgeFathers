@@ -22,7 +22,6 @@ import Chat from './components/Chat'
 import './App.css'
 
 const SERVER_URL=import.meta.env.VITE_SERVER_URL
-const PORT=import.meta.env.VITE_PORT
 
 function App() {
   const [count, setCount] = useState(0)
