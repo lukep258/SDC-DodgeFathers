@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { response } from 'express';
 import rateLimit from 'express-rate-limit';
 import pg from 'pg';
 import cors from 'cors';
@@ -18,6 +18,7 @@ const pool = new Pool({
     connectionString: process.env.DATABASE_URL
 });
 const app = express();
+app.set('trust proxy',1)
 app.use(express.static('public'));
 app.use(express.json());
 app.use(cors());
