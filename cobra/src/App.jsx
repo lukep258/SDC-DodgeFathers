@@ -38,7 +38,7 @@ function App() {
 
   useEffect(()=>{
     const fetchAll=()=>{
-      fetch(`${SERVER_URL}:${PORT}/api`)
+      fetch(`${SERVER_URL}/api`)
       .then(response=>response.json())
       .then(data=>{
         console.log(data)
