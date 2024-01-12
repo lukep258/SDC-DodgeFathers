@@ -7,7 +7,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000,
+    windowMs: 10 * 1000,
     limit: 25
 })
 

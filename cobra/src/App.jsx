@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Product from './components/Product'
@@ -21,6 +21,9 @@ import Klarna from './components/Klarna'
 import Chat from './components/Chat'
 import './App.css'
 
+const SERVER_URL=import.meta.env.VITE_SERVER_URL
+const PORT=import.meta.env.VITE_PORT
+
 function App() {
   const [count, setCount] = useState(0)
   const [productModal, setProductModal] = useState([]);
@@ -32,6 +35,17 @@ function App() {
         setProductModal([]);
     }
   };
+
+  useEffect(()=>{
+    const fetchAll=()=>{
+      fetch(`${SERVER_URL}:${PORT}/api`)
+      .then(response=>response.json())
+      .then(data=>{
+        console.log(data)
+      })
+    }
+    fetchAll()
+  },[])
 
   return (
     <>
